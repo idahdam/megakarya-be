@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "portfolios",
   "info": {
-    "name": "Portfolio",
+    "name": "Portfolio-Page",
     "description": ""
   },
   "options": {
@@ -15,22 +15,29 @@
     "Hero": {
       "type": "component",
       "repeatable": false,
-      "component": "title-desc-image.title-desc-image"
+      "component": "title-desc-image.title-desc-image",
+      "required": true
     },
     "Our_clients": {
       "type": "component",
       "repeatable": true,
-      "component": "clients.clients"
+      "component": "clients.clients",
+      "required": true,
+      "min": 4,
+      "max": 8
     },
     "Testimonies": {
       "type": "component",
       "repeatable": true,
-      "component": "testimony.testimony"
+      "component": "testimony.testimony",
+      "required": true,
+      "min": 1
     },
     "Product": {
       "type": "component",
       "repeatable": false,
-      "component": "title-desc-button.title-desc-button"
+      "component": "title-desc-button.title-desc-button",
+      "required": true
     }
   }
 }

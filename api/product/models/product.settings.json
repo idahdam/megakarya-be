@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "products",
   "info": {
-    "name": "Product"
+    "name": "Product-Page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,7 +15,8 @@
     "Hero": {
       "type": "component",
       "repeatable": false,
-      "component": "title-desc-image.title-desc-image"
+      "component": "title-desc-image.title-desc-image",
+      "required": true
     }
   }
 }

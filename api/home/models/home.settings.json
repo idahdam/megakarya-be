@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "home",
   "info": {
-    "name": "Home",
+    "name": "Home-Page",
     "description": ""
   },
   "options": {
@@ -21,22 +21,28 @@
     "Vision": {
       "type": "component",
       "repeatable": false,
-      "component": "title-desc-image.title-desc-image"
+      "component": "title-desc-image.title-desc-image",
+      "required": true
     },
     "What_we_do": {
       "type": "component",
       "repeatable": true,
-      "component": "title-desc-image.title-desc-image"
+      "component": "title-desc-image.title-desc-image",
+      "required": true,
+      "max": 4,
+      "min": 4
     },
     "Product": {
       "type": "component",
       "repeatable": false,
-      "component": "title-desc-button.title-desc-button"
+      "component": "title-desc-button.title-desc-button",
+      "required": true
     },
     "Portfolio": {
       "type": "component",
       "repeatable": false,
-      "component": "title-desc-button.title-desc-button"
+      "component": "title-desc-button.title-desc-button",
+      "required": true
     }
   }
 }

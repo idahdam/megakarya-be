@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "home",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title-desc-image.title-desc-image",
+      "required": true
+    },
+    "Vision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title-desc-image.title-desc-image"
+    },
+    "What_we_do": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title-desc-image.title-desc-image"
+    },
+    "Product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title-desc-button.title-desc-button"
+    },
+    "Portfolio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title-desc-button.title-desc-button"
+    }
+  }
+}

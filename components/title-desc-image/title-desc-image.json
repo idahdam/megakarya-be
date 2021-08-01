@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_title_desc_image_title_desc_images",
+  "info": {
+    "name": "Title-Desc-Image",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

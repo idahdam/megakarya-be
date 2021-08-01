@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "products",
+  "info": {
+    "name": "Product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title-desc-image.title-desc-image"
+    }
+  }
+}

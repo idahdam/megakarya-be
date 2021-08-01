@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolios",
+  "info": {
+    "name": "Portfolio",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title-desc-image.title-desc-image"
+    },
+    "Our_clients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "clients.clients"
+    },
+    "Testimonies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimony.testimony"
+    },
+    "Product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title-desc-button.title-desc-button"
+    }
+  }
+}

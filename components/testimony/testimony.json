@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_testimony_testimonies",
+  "info": {
+    "name": "Testimony",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

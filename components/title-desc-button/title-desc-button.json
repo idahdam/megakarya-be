@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_title_desc_button_title_desc_buttons",
+  "info": {
+    "name": "Title-Desc-Button",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button_title": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    }
+  }
+}
